@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+  color: #25282b;
+}
+
+body {
+    background-color: #e5e5e5;
+    
+    text-align: center;
+    
+}
+
+button {
+  background: none;
+  border: none;
+  color: #ff5e84;
+  font-weight: bold;
+}
+
+.fat {
+  background: #ff5e84;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
