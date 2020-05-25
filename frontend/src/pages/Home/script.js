@@ -6,3 +6,4 @@ document
       .classList
       .toggle('hide')
   })
+  
