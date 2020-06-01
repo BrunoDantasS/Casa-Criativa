@@ -21,15 +21,20 @@ form {
   max-width: 800px;
   margin: 0 auto;
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 
-.input-wrapper {
-  margin: 16px 0;
+form div:nth-child(3),
+form div:nth-child(4),
+form div:nth-child(5) {
+  grid-column: span 2;
 }
 
 input, textarea {
   width: 100%;
   padding: 12px 0;
+  box-sizing: border-box;
   border-radius: 6px;
   border: 1px solid #ff5e84;
   outline: none;
@@ -51,8 +56,9 @@ button {
   border: none;
   cursor: pointer;
   font-weight: 600;
-  line-height: 32px;
   letter-spacing: 0.8px;
+  grid-column: 2;
+  justify-self: end;
 }
 
 button:hover {
