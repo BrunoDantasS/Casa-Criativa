@@ -47,6 +47,27 @@ label {
   letter-spacing: 0.8px;
 }
 
+a {
+  background-color: #ffffff22;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.8px;
+}
+
+a:hover {
+  background-color: white;
+  color: #ff5e84;
+  transition: 400ms;
+}
+
 button {
   background: white;
   color: #ff5e84;

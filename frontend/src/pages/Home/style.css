@@ -81,6 +81,7 @@ button.fat {
 button.fat:hover {
   text-decoration: none;
   box-shadow: 0 8px 16px rgba(255, 0, 92, 0.20);
+  transition: 400ms;
 }
 
 footer {
