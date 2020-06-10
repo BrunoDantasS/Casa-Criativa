@@ -1,0 +1,20 @@
+{
+  "name": "Casa-Criativa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoDantasS/Casa-Criativa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunoDantasS/Casa-Criativa/issues"
+  },
+  "homepage": "https://github.com/BrunoDantasS/Casa-Criativa#readme"
+}

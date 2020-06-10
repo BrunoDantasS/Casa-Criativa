@@ -56,7 +56,6 @@ nav li:last-child a:hover {
 
 section.title {
   text-align: center;
-  margin: 64px;
 }
 
 section.title p {
@@ -79,35 +78,8 @@ section.ideas .idea {
   margin: 0;
 }
 
-a {
-  color: #ff5e84;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-p, .description {
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.1;
-}
-
 main {
   margin: 32px 0;
-}
-
-button {
-  background: none;
-  border: none;
-  color: #ff5e84;
-  cursor: pointer;
-  font-weight: bold;
-  letter-spacing: 0.2;
-  line-height: 18px;
-  outline: none;
 }
 
 footer {
@@ -121,6 +93,33 @@ footer {
 
 footer a {
   opacity: 0.7;
+}
+
+a {
+  color: #ff5e84;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #ff5e84;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 0.2;
+  line-height: 18px;
+  outline: none;
+}
+
+p, .description {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1;
 }
 
 .idea {
@@ -149,4 +148,10 @@ footer a {
 
 .idea .description {
   margin: 16px 0;
+}
+
+section.title,
+section.ideas,
+footer {
+  margin-top: 64px;
 }
