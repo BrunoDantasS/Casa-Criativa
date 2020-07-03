@@ -24,6 +24,7 @@ p, .description {
 #container {
   width: 90%;
   max-width: 980px;
+  justify-content: center;
 
   margin: 40px auto;
 
