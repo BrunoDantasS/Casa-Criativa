@@ -90,7 +90,7 @@ app.get('/ideas', (req, res) => {
   })
 });
 
-app.get('/newIdea', (req, res) => {
+app.get('/new-idea', (req, res) => {
 
   return res.render('NewIdea/newIdea.html')
 });
